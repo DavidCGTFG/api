@@ -1,0 +1,109 @@
+{
+  "profesor": [
+    {
+      "id": 1,
+      "nombre": "Profe1",
+      "contrasena": "pepe",
+      "email":"emailPrueba@supervalues.es",
+      "tipo_P":0
+    }
+  ],
+  "clase": [
+    {
+      "id": 1,
+      "nombre":"1ºPrimaria",
+      "num_alumnos":10
+    },
+    {
+        "id": 2,
+        "nombre":"2ºPrimaria",
+        "num_alumnos":12
+    }
+  ],
+  "alumno": [
+    {
+      "id":1,
+      "id_clase":1,
+      "nick":"pepitoGrillo"
+    },
+    {
+        "id":2,
+        "id_clase":1,
+        "nick":"JannaMontana"
+      }
+  ],
+  "itinerario": [
+    {
+      "id": 1,
+      "nombre":"PrimerItinerario"
+    },
+    {
+        "id": 2,
+        "nombre":"SegundoItinerario"
+    }
+
+  ],
+  "partida":[
+    {
+        "id":1,
+        "fecha":"2023-05-15",
+        "id_Itinerario":1,
+        "comentario":"Amistad a full"
+    }
+  ],
+  "valor":[
+    {
+      "id":1,
+      "recompensa":"botas.jpg",
+      "nombre":"Amistad",
+      "habilidades":"Empatía-honestidad,amor,respeto"
+    }
+  ],
+  "caso":[
+    {
+      "id":1,
+      "id_valor":1,
+      "nombre":"Caida a la entrada",
+      "text_intro":"Todos los días entramos al cole corriendo, y hoy se ha caído un niño. ¿Qué puedo hacer?",
+      "opcion_basica":0,
+      "imagen_opcion_basica":"imagenBasica1.jpg",
+      "texto_opcion_basica":"Puedo ayudar a que se levante.",
+      "opcion_avanzada":0,
+      "texto_opcion_avanzada":"Puedo ayudarle y pedir ayuda por si se ha hecho daño.",
+      "imagen_opcion_avanzada":"mediumblob",
+      "opcion_pasiva":0,
+      "texto_opcion_pasiva":"Llego tarde, ya le ayudará alguien.",
+      "imagen_opcion_pasiva":"mediumblob",
+      "texto_opcion_agresiva":"JAJAJA ¡qué torpe! Me voy a clase.",
+      "opcion_agresiva":0,
+      "texto_redencion_pasiva":"p-¿Dónde está Lucas?a-En el pasillo, se ha caído.p-¿Y no le habéis ayudado?a-Llegaba tarde, no podía.p-Si un compañero se cae ¿qué debemos hacer?",
+      "texto_redencion_pasiva_buena":"Tenemos que ayudarle, ¡vamos!",
+      "redencion_buena_pasiva":0,
+      "texto_redencion_pasiva_mala":"Nada, ya le ayudarán.",
+      "redencion_mala_pasiva":0,
+      "texto_redencion_agresiva":"p-¿Qué te ha pasado?a-Me he caído en el pasillo y nadie me ha ayudado.p-¿Cómo pensáis que se siente vuestro compañero?",
+      "texto_redencion_agresiva_buena":"Mal, sé que no lo he hecho bien y le acompaño a la enfermería.",
+      "redencion_buena_agresiva":0,
+      "texto_redencion_agresiva_mala":"Me callo, ha sido muy gracioso.",
+      "redencion_mala_agresiva":0
+    }
+  ],
+  "profesor_clase":[
+    {
+      "id_profesor":1,
+      "id_clase":1
+    }
+  ],
+  "alumno_partida":[
+    {
+      "id_alumno":1,
+      "id_partida":1
+    }
+  ],
+  "itinerario_caso":[
+    {
+      "id_itinerario":1,
+      "id_caso":1
+    }
+  ]
+}
